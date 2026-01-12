@@ -36,18 +36,18 @@
 
 ## Usage
 
-### One-Time Installation
+### Recommended: Switchable Installation
+
+1. Download the flavor(s) of your choice from [themes](themes/).
+2. Copy the file into the CopyQ themes directory (Windows: `%APPDATA%\copyq\themes\`, Linux: `~/.config/copyq/themes/`, macOS: `~/Library/Application Support/copyq/themes/`).
+3. Open the app and go to **File** > **Preferences** > **Appearance**.
+4. Select your flavor of choice from the theme dropdown and select apply.
+
+### Alternative: One-Time Installation
 
 1. Download the flavor of your choice from [themes](themes/).
 2. Open the app and go to **File** > **Preferences** > **Appearance** > **Load Theme**.
 3. Select the downloaded flavor file and select apply.
-
-### Switchable Installation
-
-1. Download the flavor(s) of your choice from [themes](themes/).
-2. Copy the file into the CopyQ themes directory (which you can find out by running `copyq info themes`).
-3. Open the app and go to **File** > **Preferences** > **Appearance**.
-4. Select your flavor of choice from the theme dropdown and select apply.
 
 ## 💝 Thanks to
 
