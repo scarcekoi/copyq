@@ -3,7 +3,8 @@ whiskers:
   version: "^2.5.1"
   matrix:
     - flavor
-  filename: "themes/catppuccin-{{flavor.identifier}}.ini"
+    - accent
+  filename: "themes/{{flavor.identifier}}/catppuccin-{{flavor.identifier}}-{{accent}}.ini"
   hex_format: "#{{R}}{{G}}{{B}}"
 ---
 [General]
@@ -12,8 +13,8 @@ fg={{text.hex}}
 alt_bg={{surface1.hex}}
 sel_bg={{surface0.hex}}
 sel_fg={{text.hex}}
-find_bg={{surface0.hex}}
-find_fg={{text.hex}}
+find_bg={{flavor.colors[accent].hex}}
+find_fg={{base.hex}}
 edit_bg={{surface0.hex}}
 edit_fg={{text.hex}}
 notes_bg={{mantle.hex}}
@@ -22,5 +23,8 @@ num_fg={{overlay0.hex}}
 num_sel_fg={{text.hex}}
 notification_bg={{surface0.hex}}
 notification_fg={{text.hex}}
+
 hover_item_css="
     ;background: {{surface2.hex}}"
+sel_item_css="
+    ;background: {{surface0.hex}}"
