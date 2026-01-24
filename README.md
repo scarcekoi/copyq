@@ -36,6 +36,10 @@
 
 ## Usage
 
+> [!NOTE]
+> It is recommended to enable **Set colors for tabs, toolbar and menus** in **File** > **Preferences** > **Appearance** for the best experience.
+> You will have to re-enable this option every time you switch themes.
+
 ### Recommended: Switchable Installation
 
 1. Download the flavor(s) of your choice from [themes](themes/).
